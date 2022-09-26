@@ -1,3 +1,9 @@
+/* Altere o arquivo CSS para deixar o HTML como na imagem abaixo. Para isso utilize as propriedades `justify-content`, `align-items` e `flex-direction`.
+
+**Dica**: Lembre-se que itens flex também podem ser contêineres.
+
+![](https://jslpfmlhyrzjbddidwga.supabase.co/storage/v1/object/public/assets-conteudo/imagens/exercicio1-flex.png) */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +14,10 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
 }
 
 .item {
@@ -15,4 +25,21 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
 }
+
+
+/* main{
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black
+} */
